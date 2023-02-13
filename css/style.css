@@ -1,0 +1,77 @@
+body {
+  background-image: linear-gradient(orange, purple, black);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 20px;
+}
+
+h1, h2 {
+  font-family: monaco;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+p {
+  font-family: monaco;
+  color: white;
+  text-align: center;
+}
+
+img {
+  position: relative;
+  height: 400px;
+}
+
+@media screen and (min-width: 300px) {
+  div.information, div.informationReversed {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  div.information.desktop {
+    display: none;
+  }
+
+  div.character {
+    margin: 0 auto;
+  }
+
+  p.charDescription {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  div.introduction {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  div.informationReversed {
+    display: none;
+  }
+
+  div.information, div.information.desktop {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  div.description, div.character {
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  p.charDescription {
+    text-align: left;
+  }
+}
