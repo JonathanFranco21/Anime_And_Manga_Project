@@ -3,6 +3,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   margin: 20px;
+  padding-bottom: 20px;
 }
 
 h1, h2 {
@@ -11,14 +12,14 @@ h1, h2 {
   color: white;
 }
 
-h1 {
-  padding-top: 20px;
-}
-
 p {
   font-family: monaco;
   color: white;
   text-align: center;
+}
+
+img.logo {
+  height: 30px;
 }
 
 img {
@@ -27,6 +28,10 @@ img {
 }
 
 @media screen and (min-width: 300px) {
+  div.logoImage {
+    margin: 0 auto;
+  }
+
   div.information, div.informationReversed {
     display: flex;
     flex-direction: column;
