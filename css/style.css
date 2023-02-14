@@ -27,6 +27,11 @@ img {
   height: 400px;
 }
 
+div#animeData {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
 @media screen and (min-width: 300px) {
   div.logoImage {
     margin: 0 auto;
