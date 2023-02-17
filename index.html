@@ -1,5 +1,6 @@
 <DOCTYPE! html>
-<html>
+  <html>
+
   <head>
     <link href="css/style.css" type="text/css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,80 +9,116 @@
   </head>
 
   <body>
-    <h1>Anime Galore!</h1>
+    <div class="logoArea">
+      <img class="logo" src="img/logo.png" />
+    </div>
     <div class="introduction">
       <h2>Welcome to Anime Galore!</h2>
-      <p>A place to be able to keep track of some of the most popular anime of today like 
-      My Hero Academia, SPY X FAMILY, One Piece, and Tomo-chan is a Girl!, along with famous legacy anime like The Prince of Tennis, Snow White with the Red Hair, Haikyu!, and Fairy Tail!
+      <p>A place to be able to keep track of some of the most popular anime of today like
+        My Hero Academia, SPY X FAMILY, One Piece, and Tomo-chan is a Girl!, along with famous legacy anime like The
+        Prince of Tennis, Snow White with the Red Hair, Haikyu!, and Fairy Tail!
       </p>
     </div>
     <div class="information">
       <div class="description">
         <h2>SPY X FAMILY</h2>
-        <p>Join Anya on her adventures she encounters in her "family" that she's been adopted into. Her father, Loid, is a spy, while her mother, Yor, is as assassin. But no one knows each other's real identities and no one knows that Anya is a telepath!</p>
+        <p>Join Anya on her adventures she encounters in her "family" that she's been adopted into. Her father, Loid, is
+          a spy, while her mother, Yor, is as assassin. But no one knows each other's real identities and no one knows
+          that Anya is a telepath!</p>
       </div>
       <div class="character">
-        <img src="img/Anya.png"/>
+        <img src="img/Anya.png" />
         <p class="charDescription"><i>Anya Forger</i></p>
       </div>
     </div>
     <div class="information desktop">
       <div class="character">
-        <img src="img/Izuku.png"/>
+        <img src="img/Izuku.png" />
         <p class="charDescription"><i>Izuku Midoriya</i></p>
       </div>
       <div class="description">
         <h2>MY HERO ACADEMIA</h2>
-        <p>In a society of super-powered humans, Izuku Midoriya was born without a quirk until one day, he encounters his favorite hero, All Might, after a villain encounter and with that, begins his story and his journey to become the next Symbol of Peace!</p>
+        <p>In a society of super-powered humans, Izuku Midoriya was born without a quirk until one day, he encounters
+          his favorite hero, All Might, after a villain encounter and with that, begins his story and his journey to
+          become the next Symbol of Peace!</p>
       </div>
     </div>
     <div class="informationReversed">
       <div class="description">
         <h2>MY HERO ACADEMIA</h2>
-        <p>In a society of super-powered humans, Izuku Midoriya was born without a quirk until one day, he encounters his favorite hero, All Might, after a villain encounter and with that, begins his story and his journey to become the next Symbol of Peace!</p>
+        <p>In a society of super-powered humans, Izuku Midoriya was born without a quirk until one day, he encounters
+          his favorite hero, All Might, after a villain encounter and with that, begins his story and his journey to
+          become the next Symbol of Peace!</p>
       </div>
       <div class="character">
-        <img src="img/Izuku.png"/>
+        <img src="img/Izuku.png" />
         <p class="charDescription"><i>Izuku Midoriya</i></p>
       </div>
     </div>
     <div class="information">
       <div class="description">
         <h2>THE PRINCE OF TENNIS</h2>
-        <p>Watch Ryoma Echizen's journey to become the next pro tennis player as he becomes one of the youngest to become part of Shegaku's amazingly talented team of tennis players as him and his team endure to become the winners of the National Middle School Tennis Championship!</p>
+        <p>Watch Ryoma Echizen's journey to become the next pro tennis player as he becomes one of the youngest to
+          become part of Shegaku's amazingly talented team of tennis players as him and his team endure to become the
+          winners of the National Middle School Tennis Championship!</p>
       </div>
       <div class="character">
-        <img src="img/Ryoma.png"/>
+        <img src="img/Ryoma.png" />
         <p class="charDescription"><i>Ryoma Echizen</i></p>
       </div>
     </div>
     <div class="information desktop">
       <div class="character">
-        <img src="img/Hinata.png"/>
+        <img src="img/Hinata.png" />
         <p class="charDescription"><i>Shoyo Hinata</i></p>
       </div>
       <div class="description">
         <h2>HAIKYU!</h2>
-        <p>Shoyo Hinata, a junior high student, falls in love with volleyball and decides to make his way to get into Karasuno High School. After getting accepted, he encounters both friends and enemies to reach his way to become a professional volleyball player!</p>
+        <p>Shoyo Hinata, a junior high student, falls in love with volleyball and decides to make his way to get into
+          Karasuno High School. After getting accepted, he encounters both friends and enemies to reach his way to
+          become a professional volleyball player!</p>
       </div>
     </div>
     <div class="informationReversed">
       <div class="description">
         <h2>HAIKYU!</h2>
-        <p>A place to be able to keep track of some of 
-          the most popular anime of today like 
-          My Hero Academia and SPY X FAMILY, 
+        <p>A place to be able to keep track of some of
+          the most popular anime of today like
+          My Hero Academia and SPY X FAMILY,
           along with famous legacy anime like The Prince of Tennis
           and Fairy Tail!
         </p>
       </div>
       <div class="character">
-        <img src="img/Hinata.png"/>
+        <img src="img/Hinata.png" />
         <p class="charDescription"><i>Shoyo Hinata</i></p>
       </div>
     </div>
-    <div id="animeData"></div>
-    <script src="js/index.js"></script>
+    <div class="animeInfo">
+      <button onclick="convertJsonToHtmlTable()">
+        Check Out These Animes!!
+      </button>
+      <table id="animeData"></table>
+      <script src="animes.js"></script>
+    </div>
+    <h1>Want more?! Check out this remix of <br /> Bokurano from My Hero Academia <br /> by Eve and DJ MUT4G8N!!</h1>
+    <div class="albumInfo">
+      <div class="song">
+        <img class="albumCover" src="img/Bokurano Remix.jpg" />
+      <audio controls autoplay>
+        <source src="audio/Bokurano Remix.mp3" type="audio/mpeg">
+      </audio>
+      </div>
+      <div class="songInfo">  
+        <p class="songTitle">
+          Bokurano (from "My Hero Academia") [DJ MUT4G8N Remix]
+        </p>
+        <p class="artist">
+          Eve and DJ MUT4G8N
+        </p>
+      </div>
+    </div>
   </body>
-</html>  
-</DOCTYPE>
+
+  </html>
+  </DOCTYPE>

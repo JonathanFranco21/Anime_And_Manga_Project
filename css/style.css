@@ -18,8 +18,16 @@ p {
   text-align: center;
 }
 
+div.logoArea {
+  width: 250px;
+  margin: 0 auto;
+}
+
 img.logo {
+  position: relative;
   height: 30px;
+  align-content: center;
+  
 }
 
 img {
@@ -27,13 +35,50 @@ img {
   height: 400px;
 }
 
-div#animeData {
+div.animeInfo {
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+button {
+  background: none;
+  border: none;
+  font-family: monaco;
+  font-size: 20px;
+  color: white;
+  text-decoration: underline;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  color: orange;
+}
+
+table {
+  text-align: center;
+  border: 1px white solid;
+  margin: 0 auto;
+}
+
+th, tr, td {
+  border: 1px white solid;
+  color: white;
+  font-family: monaco;
+  padding: 10px;
+}
+
+th, td {
+  border-collapse: collapse;
 }
 
 @media screen and (min-width: 300px) {
-  div.logoImage {
+  div.logoArea {
+    width: 250px;
     margin: 0 auto;
   }
 
@@ -55,9 +100,76 @@ div#animeData {
   p.charDescription {
     text-align: center;
   }
+
+  th, tr, td {
+    padding: 5px;
+  }
+
+  div.albumInfo {
+    width: 250px;
+    height: 500px; 
+    border-radius: 20px;
+    background-color: gray;
+    margin: 20px auto;
+    padding: 15px;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  img.albumCover {
+    height: 245px;
+    width: 245px;
+    border-radius: 10px;
+  }
+  
+  audio {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 245px;
+  }
+
+  div.song {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  div.songInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  p.songTitle, p.artist {
+    font-family: monaco;
+    flex-direction: column;
+    margin: 0;
+    color: white;
+    position: relative;
+    width: 245px;
+    text-align: left;
+    left: 10px;
+  }
+
+  p.songTitle {
+    top: 10px;
+  }
+
+  p.artist {
+    top: 30px;
+  }
 }
 
 @media screen and (min-width: 700px) {
+  div.logoArea {
+    width: 450px;
+    margin: 0 auto;
+  }
+
+  img.logo {
+    height: 55px;
+  }
+
   div.introduction {
     width: 500px;
     margin: 0 auto;
@@ -83,5 +195,63 @@ div#animeData {
   
   p.charDescription {
     text-align: left;
+  }
+
+  th, tr, td {
+    padding: 10px;
+  }
+
+  div.albumInfo {
+    width: 500px;
+    height: 150px; 
+    border-radius: 20px;
+    background-color: gray;
+    margin: 20px auto;
+    padding: 15px;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  img.albumCover {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+  }
+  
+  audio {
+    padding: 0 0 20px 20px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 320px;
+  }
+
+  div.song {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  div.songInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  p.songTitle, p.artist {
+    font-family: monaco;
+    flex-direction: column;
+    margin: 0;
+    color: white;
+    position: relative;
+    width: 320px;
+    text-align: left;
+    left: 190px;
+  }
+
+  p.songTitle {
+    top: -85px;
+  }
+
+  p.artist {
+    top: -75px;
   }
 }

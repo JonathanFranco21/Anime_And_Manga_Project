@@ -1,0 +1,26 @@
+[
+  {
+    "name": "SPY X FAMILY",
+    "release_year": "2022",
+    "seasons": "1",
+    "airing": "Yes"
+  },
+  {
+    "name": "My Hero Academia",
+    "release_year": "2016",
+    "seasons": "6",
+    "airing": "Yes"
+  },
+  {
+    "name": "The Prince of Tennis",
+    "release_year": "2003",
+    "seasons": "7",
+    "airing": "No"
+  },
+  {
+    "namr": "Haikyu!",
+    "release_year": "2014",
+    "seasons": "4",
+    "airing": "No"
+  }
+]
