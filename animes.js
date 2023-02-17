@@ -58,7 +58,43 @@ var animeInformation = [
     "Release Year": "1999",
     "Seasons": "20",
     "Airing?": "Yes"
-  }
+  },
+  {
+    "Name": "Tomo-chan is a Girl!",
+    "Release Year": "2023",
+    "Seasons": "1",
+    "Airing?": "Yes"
+  },
+  {
+    "Name": "Dragon Collection",
+    "Release Year": "2014",
+    "Seasons": "1",
+    "Airing?": "No"
+  },
+  {
+    "Name": "Dragon Ball Super",
+    "Release Year": "2015",
+    "Seasons": "5",
+    "Airing?": "No"
+  },
+  {
+    "Name": "Pokemon",
+    "Release Year": "1997",
+    "Seasons": "25",
+    "Airing?": "Yes"
+  },
+  {
+    "Name": "Patta Potta Monta",
+    "Release Year": "2007",
+    "Seasons": "1",
+    "Airing?": "No"
+  },
+  {
+    "Name": "One Piece",
+    "Release Year": "1999",
+    "Seasons": "20",
+    "Airing?": "Yes"
+  },
 ]; 
 
 function convertJsonToHtmlTable(){
