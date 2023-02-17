@@ -90,10 +90,34 @@ var animeInformation = [
     "Airing?": "No"
   },
   {
-    "Name": "One Piece",
-    "Release Year": "1999",
-    "Seasons": "20",
-    "Airing?": "Yes"
+    "Name": "Captain Tsubasa",
+    "Release Year": "1983",
+    "Seasons": "5",
+    "Airing?": "No"
+  },
+  {
+    "Name": "Eyeshield 21",
+    "Release Year": "2005",
+    "Seasons": "2",
+    "Airing?": "No"
+  },
+  {
+    "Name": "Slam Dunk",
+    "Release Year": "1993",
+    "Seasons": "1",
+    "Airing?": "No"
+  },
+  {
+    "Name": "Initial D",
+    "Release Year": "1998",
+    "Seasons": "7",
+    "Airing?": "No"
+  },
+  {
+    "Name": "Beyblade",
+    "Release Year": "2001",
+    "Seasons": "1",
+    "Airing?": "No"
   },
 ]; 
 
